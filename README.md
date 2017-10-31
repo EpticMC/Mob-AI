@@ -29,7 +29,7 @@ Default Config:
 # Should only one mob (the nearest) be targeted?
 OnlyNearestMob: false
 
-# The distance (in blocks) of how many mobs should respond
+# The range (in blocks) of how many mobs should respond
 BlockDistance: 100
 
 # Should the color of the response message on the head of the mob be random? 
@@ -40,4 +40,10 @@ RandomResponseColor: true
 # Also: For a list of supported colors check here:
 # https://wiki.ess3.net/mc/
 ResponseColor: "&f"
+
+# The Endpoint handling the requests
+ApiEndpoint: "api.nulldev.org"
+
+# The API Key for the endpoint
+ApiKey: "-- CENSORED --"
 ```
