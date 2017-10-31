@@ -1,0 +1,11 @@
+name: MobAI
+main: org.nulldev.MobAI.Main
+author: NullDev
+version: 1.0
+description: Allows smalltalk with mobs [Developed for EpticMC.com by NullDev/Shadow]
+
+commands:
+  mob:
+    description: Main command.
+aliases: mobai
+
