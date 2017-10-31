@@ -1,0 +1,21 @@
+
+ ################
+ #--------------#
+ # MobAI Config #
+ #--------------#
+ ################
+
+# Should only one mob (the nearest) be targeted?
+OnlyNearestMob: false
+
+# The distance (in blocks) of how many mobs should respond
+BlockDistance: 100
+
+# Should the color of the response message on the head of the mob be random? 
+RandomResponseColor: true 
+
+# WHat color to use for the mob response message
+# Note: This option is only use if 'RandomResponseColor' above is set to false!
+# Also: For a list of supported colors check here:
+# https://wiki.ess3.net/mc/
+ResponseColor: "&f"
