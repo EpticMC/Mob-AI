@@ -27,9 +27,10 @@ Default Config:
  ################
 
 # Should only one mob (the nearest) be targeted?
-OnlyNearestMob: false
+OnlyNearestMob: true
 
 # The range (in blocks) of how many mobs should respond
+# Note: This option is only use if 'OnlyNearestMob' above is set to false!
 BlockDistance: 100
 
 # Should the color of the response message on the head of the mob be random? 
@@ -46,4 +47,5 @@ ApiEndpoint: "api.nulldev.org"
 
 # The API Key for the endpoint
 ApiKey: "-- CENSORED --"
+
 ```
