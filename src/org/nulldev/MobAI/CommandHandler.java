@@ -1,5 +1,6 @@
 package org.nulldev.MobAI;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -15,8 +16,26 @@ public class CommandHandler implements CommandExecutor {
 		}
     	else {
     		Player psender = (Player)sender;
+    		if (args.length > 0){
+    			Boolean onlyNearestMob = plugin.getConfig().getBoolean("OnlyNearestMob");
+        		if (onlyNearestMob){
+        			
+        		}
+        		else {
+        			//TODO: Get mobs in radius
+        		}
+    		}
+    		else {
+    			psender.sendMessage(
+    				(Object)ChatColor.DARK_AQUA + "--=== "      +  
+    				(Object)ChatColor.YELLOW + "USAGE:"         + 
+    				(Object)ChatColor.DARK_AQUA + " ===--\n- "  +
+    				(Object)ChatColor.YELLOW + "/mob YOUR TEXT" +
+    				(Object)ChatColor.DARK_AQUA + " -\n"        +
+    				"--==============--"
+    			);
+    		}
     		return true;
     	}
-
     }
 }
