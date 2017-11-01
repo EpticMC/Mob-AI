@@ -36,16 +36,18 @@ BlockDistance: 100
 # Should the color of the response message on the head of the mob be random? 
 RandomResponseColor: true 
 
-# WHat color to use for the mob response message
+# What color to use for the mob response message
 # Note: This option is only use if 'RandomResponseColor' above is set to false!
 # Also: For a list of supported colors check here:
 # https://wiki.ess3.net/mc/
 ResponseColor: "&f"
+
+# Chat-Prefix for messages
+ChatPrefix: "Mob AI"
 
 # The Endpoint handling the requests
 ApiEndpoint: "api.nulldev.org"
 
 # The API Key for the endpoint
 ApiKey: "-- CENSORED --"
-
 ```
